@@ -68,7 +68,28 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="HDFSClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="foo.zongzhe.hdfs_client.HDFSClientDemo" />
+      <module name="foo.zongzhe" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=zongzhec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foo.zongzhe.hdfs_client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HDFSClientDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,7 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1587294235045</updated>
       <workItem from="1587294237958" duration="2153000" />
-      <workItem from="1587298396866" duration="2600000" />
+      <workItem from="1587298396866" duration="2645000" />
+      <workItem from="1587372022275" duration="4479000" />
     </task>
     <servers />
   </component>
@@ -101,13 +123,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587376135719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587376135719" />
+    <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1587375629892">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587375629892" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1587297353262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587297353262" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1587298076043">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1587375835147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587298076043" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587375835147" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1587375835147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587375835147" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1587375835147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587375835147" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1587375835147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587375835147" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1587372585865">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587372585865" />
   </component>
 </project>
