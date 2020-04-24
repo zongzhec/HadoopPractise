@@ -63,12 +63,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/input" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\personmalWorkspace\gitWorkSpace\HadoopPractise\src\main\resources\input" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\personmalWorkspace\gitWorkSpace\HadoopPractise\src\main\resources\input" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="HDFSClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -104,6 +113,8 @@
       <workItem from="1587294237958" duration="2153000" />
       <workItem from="1587298396866" duration="2645000" />
       <workItem from="1587372022275" duration="9225000" />
+      <workItem from="1587457566529" duration="1209000" />
+      <workItem from="1587734133384" duration="265000" />
     </task>
     <servers />
   </component>
@@ -155,5 +166,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587372585865" />
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1587734392220">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587734392220" />
   </component>
 </project>
