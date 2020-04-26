@@ -33,11 +33,13 @@ public class WordCountMapper extends Mapper<LongWritable, Text, Text, IntWritabl
 
         // 把一行数据转换成String
         String line = value.toString();
+        System.out.println("Read line: " + line);
         String[] words = line.split(SPACE);
         // 遍历数组，把单次编程(word, 1)的形式，再返还给框架
         for (String word : words) {
             this.word.set(word);
             context.write(this.word, one);
+            System.out.println(word + " - counted");
             /*
             * 注意：上一行可以写成：context.write(new Text(word), new IntWritable(1));
             * 但是没读进来一行就会new两个对象，最终会导致程序变慢甚至崩溃

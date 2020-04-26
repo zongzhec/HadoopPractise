@@ -21,7 +21,8 @@ public class WordCountDriver {
 
     public void wcDriver(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
         // 获取一个MR job实例
-        Job job = Job.getInstance(new Configuration());
+        Configuration conf = new Configuration();
+        Job job = Job.getInstance(conf);
 
         // 设置类路径
         job.setJarByClass(WordCountDriver.class);
