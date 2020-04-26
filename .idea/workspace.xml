@@ -79,7 +79,7 @@
       <recent name="Z:\personmalWorkspace\gitWorkSpace\HadoopPractise\src\main\resources\input" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.WordCountDemo">
     <configuration name="HDFSClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="foo.zongzhe.hdfs_client.HDFSClientDemo" />
       <module name="foo.zongzhe" />
@@ -94,6 +94,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordCountDemo" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="foo.zongzhe.map_reduce.word_count.WordCountDemo" />
+      <module name="foo.zongzhe" />
+      <option name="PROGRAM_PARAMETERS" value="E:\word_count_input.txt E:\output.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WordCountDemo" />
+      <item itemvalue="Application.HDFSClientDemo" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.HDFSClientDemo" />
@@ -115,7 +127,9 @@
       <workItem from="1587372022275" duration="9225000" />
       <workItem from="1587457566529" duration="1209000" />
       <workItem from="1587734133384" duration="402000" />
-      <workItem from="1587805393037" duration="3782000" />
+      <workItem from="1587805393037" duration="9252000" />
+      <workItem from="1587822643089" duration="62000" />
+      <workItem from="1587866613037" duration="1206000" />
     </task>
     <servers />
   </component>
@@ -135,38 +149,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587376135719">
+    <state x="570" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587816717897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587376135719" />
+    <state x="570" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587816717897" />
     <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1587375629892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587375629892" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1587807804144">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1587812365571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587807804144" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1587297353262">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587812365571" />
+    <state x="845" y="328" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587816644664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587297353262" />
-    <state width="1877" height="213" key="GridCell.Tab.0.bottom" timestamp="1587392566510">
+    <state x="845" y="328" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587816644664" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1587815945782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587392566510" />
-    <state width="1877" height="213" key="GridCell.Tab.0.center" timestamp="1587392566510">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587815945782" />
+    <state width="1877" height="213" key="GridCell.Tab.0.bottom" timestamp="1587822706731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587392566510" />
-    <state width="1877" height="213" key="GridCell.Tab.0.left" timestamp="1587392566510">
+    <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587822706731" />
+    <state width="1877" height="213" key="GridCell.Tab.0.center" timestamp="1587822706731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587392566510" />
-    <state width="1877" height="213" key="GridCell.Tab.0.right" timestamp="1587392566510">
+    <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587822706731" />
+    <state width="1877" height="213" key="GridCell.Tab.0.left" timestamp="1587822706730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587392566510" />
+    <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587822706730" />
+    <state width="1877" height="213" key="GridCell.Tab.0.right" timestamp="1587822706731">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587822706731" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1587372585865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
